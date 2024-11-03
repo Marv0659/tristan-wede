@@ -94,6 +94,10 @@ button {
   text-align: center;
 }
 
+.book_text {
+  display: none;
+}
+
 .QuoteAuthor {
   display: flex;
   justify-content: right;
@@ -373,6 +377,7 @@ footer {
   .textimg_container {
     display: flex;
     align-items: center;
+    padding-bottom: 2rem;
   }
   .textimg_container img {
     display: block;
@@ -382,7 +387,7 @@ footer {
     aspect-ratio: 0;
   }
 
-  .textimg_container img:nth-child(n + 3) {
+  .textimg_container div:nth-child(n + 3) {
     display: none;
   }
 
@@ -421,11 +426,14 @@ footer {
 }
 
 @media (min-width: 1440px) {
+  .book_text {
+    display: block;
+  }
   .text_book_container img {
     display: block !important;
   }
 
-  .textimg_container img:nth-child(n + 3) {
+  .textimg_container div:nth-child(n + 3) {
     display: block !important; /* Overrides the 1024px rule */
   }
   .text_book_container {
