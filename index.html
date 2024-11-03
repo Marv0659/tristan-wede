@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tristan Wede Lind</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="variables.css">
     <script src="app.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Tristan Wede Lind</h1>
-        <p>Web Developer and Author</p>
-        <select name="language" id="language">
-            <option value="en">English</option>
-            <option value="no">Norwegian</option>
-        </select>
+        <div>
+            <img class="lind" src="img/lind.png" alt="">
+        </div>
+        <div>
+            <h1>Tristan Wede Lind</h1>
+            <p>Web Developer and Author</p>
+        </div>
+        <div>
+            <select name="language" id="language">
+                <option value="en">English</option>
+                <option value="no">Norwegian</option>
+            </select>
+        </div>
     </header>
     <nav>
         <ul class="nav">
@@ -39,28 +47,44 @@
         </section>
 
         <section class="text">
-            <p>A Copenhagen native, Tristan Wede Lind has established himself as a leading authority in web development,
-                captivating
-                audiences worldwide with his profound knowledge of various technologies and methodologies. With a career
-                spanning over
-                two decades, Lind has honed his skills working for industry giants, where he contributed to cutting-edge
-                projects that
-                pushed the boundaries of web development.
+            <div class="textimg_container">
+                <p>A Copenhagen native, Tristan Wede Lind has established himself as a leading authority in web
+                    development,
+                    captivating
+                    audiences worldwide with his profound knowledge of various technologies and methodologies. With a
+                    career
+                    spanning over
+                    two decades, Lind has honed his skills working for industry giants, where he contributed to
+                    cutting-edge
+                    projects that
+                    pushed the boundaries of web development.
 
-                Lind's latest achievements showcase his commitment to advancing the field. Through meticulous research
-                and hands-on
-                experience, he has developed novel approaches to web design, user experience optimization, and
-                responsive development,
-                ensuring that websites and applications deliver immersive and intuitive experiences across devices.
+                    Lind's latest achievements showcase his commitment to advancing the field. Through meticulous
+                    research
+                    and hands-on
+                    experience, he has developed novel approaches to web design, user experience optimization, and
+                    responsive development,
+                    ensuring that websites and applications deliver immersive and intuitive experiences across devices.
 
-                As an accomplished author, Lind has authored numerous critically acclaimed books that serve as essential
-                guides for
-                aspiring web developers and industry professionals alike. His publications, revered for their clarity,
-                depth, and
-                practicality, have garnered widespread acclaim and have been translated into multiple languages,
-                solidifying his
-                reputation as an influential figure in the global web development community.
-            </p>
+                    As an accomplished author, Lind has authored numerous critically acclaimed books that serve as
+                    essential
+                    guides for
+                    aspiring web developers and industry professionals alike. His publications, revered for their
+                    clarity,
+                    depth, and
+                    practicality, have garnered widespread acclaim and have been translated into multiple languages,
+                    solidifying his
+                    reputation as an influential figure in the global web development community.
+                </p>
+                <div class="text_book_container">
+                    <img src="img/book_front_end.png" alt="">
+                    <img src="img/book_js.png" alt="">
+                    <img src="img/book_js.png" alt="">
+                    <img src="img/book_js.png" alt="">
+                </div>
+
+
+            </div>
             <div class="divQuote">
                 <p class="quote">
                     Tristan Wede Lind's books on web development are an invaluable resource for both novices and
@@ -75,7 +99,9 @@
 
                 </p>
                 <span class="QuoteAuthor">The Tech Tribune</span>
+
             </div>
+
 
             <p>
                 In addition to his professional accomplishments, Lind is known for his dedication to sharing his
@@ -88,327 +114,363 @@
             </p>
 
 
+
+
         </section>
 
         <section class="onTour">
-            <h2 class="onTourHeader">On tour</h2>
-            <picture class="imgDiv"><img src="img/conference.jpg" alt=""></picture>
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+            <div>
+                <h2 class="onTourHeader">On tour</h2>
+                <picture class="imgDiv"><img src="img/conference.jpg" alt=""></picture>
+            </div>
+            <div class="article-event-container">
+                <article class=" event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+
+
+                </article>
+
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
+                    <hr class="divider">
+                </article>
+                <article class="event-card">
+                    <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
+                    <h3>WebTech Summit</h3>
+                    Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
 
 
 
-            </article>
-            <hr class="divider">
-            <article class="event-card">
-                <p><strong>Date:</strong> 2023-12-06 to 2023-12-08</p>
-                <h3>WebTech Summit</h3>
-                Keynote Speaker <p><strong>Role:</strong> Location: San Francisco, CA, Moscone Center</p>
-
-
-
-            </article>
-            <hr class="divider">
+                    <hr class="divider">
+                </article>
 
         </section>
 
         <section class="books">
             <h2 class="booksHeader">Books</h2>
-            <article class="articleBooks">
-                <picture class="imgDiv">
-                    <img class="booksImg" src="img/book_php.png" alt="">
-                </picture>
-                <div class="booksText">
-                    <h3>Advanced PHP</h3>
-                    <Strong>From Zero to Hero (2023)</Strong>
-                    <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP
-                        programming. With
-                        meticulous detail, Lind guides readers through advanced concepts, empowering them to master
-                        complex
-                        topics such as
-                        object-oriented programming, database integration, and secure web application development. This
-                        comprehensive guide is a
-                        must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
-                    </p>
-                </div>
-            </article>
-            <hr class="divider">
-            <article class="articleBooks">
-                <picture class="imgDiv">
-                    <img class="booksImg" src="img/book_css.png" alt="">
-                </picture>
-                <div class="booksText">
-                    <h3>Advanced PHP</h3>
-                    <Strong>From Zero to Hero (2023)</Strong>
-                    <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP
-                        programming. With
-                        meticulous detail, Lind guides readers through advanced concepts, empowering them to master
-                        complex
-                        topics such as
-                        object-oriented programming, database integration, and secure web application development. This
-                        comprehensive guide is a
-                        must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
-                    </p>
-                </div>
-            </article>
-            <hr class="divider">
-            <article class="articleBooks">
-                <picture class="imgDiv">
-                    <img class="booksImg" src="img/book_js.png" alt="">
-                </picture>
-                <div class="booksText">
-                    <h3>Advanced PHP</h3>
-                    <Strong>From Zero to Hero (2023)</Strong>
-                    <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP
-                        programming. With
-                        meticulous detail, Lind guides readers through advanced concepts, empowering them to master
-                        complex
-                        topics such as
-                        object-oriented programming, database integration, and secure web application development. This
-                        comprehensive guide is a
-                        must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
-                    </p>
-                </div>
-            </article>
-            <hr class="divider">
-            <article class="articleBooks">
-                <picture class="imgDiv">
-                    <img class="booksImg" src="img/book_programming.png" alt="">
-                </picture>
-                <div class="booksText">
-                    <h3>Advanced PHP</h3>
-                    <Strong>From Zero to Hero (2023)</Strong>
-                    <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP
-                        programming. With
-                        meticulous detail, Lind guides readers through advanced concepts, empowering them to master
-                        complex
-                        topics such as
-                        object-oriented programming, database integration, and secure web application development. This
-                        comprehensive guide is a
-                        must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
-                    </p>
-                </div>
-            </article>
-            <hr class="divider">
-            <article class="articleBooks">
-                <picture class="imgDiv">
-                    <img class="booksImg" src="img/book_js_basic.png" alt="">
-                </picture>
-                <div class="booksText">
-                    <h3>Advanced PHP</h3>
-                    <Strong>From Zero to Hero (2023)</Strong>
-                    <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP
-                        programming. With
-                        meticulous detail, Lind guides readers through advanced concepts, empowering them to master
-                        complex
-                        topics such as
-                        object-oriented programming, database integration, and secure web application development. This
-                        comprehensive guide is a
-                        must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
-                    </p>
-                </div>
-            </article>
-            <hr class="divider">
-            <article class="articleBooks">
-                <picture class="imgDiv">
-                    <img class="booksImg" src="img/book_front_end.png" alt="">
-                </picture>
-                <div class="booksText">
-                    <h3>Advanced PHP</h3>
-                    <Strong>From Zero to Hero (2023)</Strong>
-                    <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP
-                        programming. With
-                        meticulous detail, Lind guides readers through advanced concepts, empowering them to master
-                        complex
-                        topics such as
-                        object-oriented programming, database integration, and secure web application development. This
-                        comprehensive guide is a
-                        must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
-                    </p>
-                </div>
-            </article>
+            <div class="books-container">
+                <article class="articleBooks">
+                    <picture class="imgDiv">
+                        <img class="booksImg" src="img/book_php.png" alt="">
+                    </picture>
+                    <div class="booksText">
+                        <h3>Advanced PHP</h3>
+                        <Strong>From Zero to Hero (2023)</Strong>
+                        <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of
+                            PHP
+                            programming. With
+                            meticulous detail, Lind guides readers through advanced concepts, empowering them to master
+                            complex
+                            topics such as
+                            object-oriented programming, database integration, and secure web application development.
+                            This
+                            comprehensive guide is a
+                            must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
+                        </p>
+                        <hr class="divider">
+                    </div>
+                </article>
+                <article class="articleBooks">
+                    <picture class="imgDiv">
+                        <img class="booksImg" src="img/book_css.png" alt="">
+                    </picture>
+                    <div class="booksText">
+                        <h3>Advanced PHP</h3>
+                        <Strong>From Zero to Hero (2023)</Strong>
+                        <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of
+                            PHP
+                            programming. With
+                            meticulous detail, Lind guides readers through advanced concepts, empowering them to master
+                            complex
+                            topics such as
+                            object-oriented programming, database integration, and secure web application development.
+                            This
+                            comprehensive guide is a
+                            must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
+                        </p>
+                        <hr class="divider">
+                    </div>
+                </article>
+                <article class="articleBooks">
+                    <picture class="imgDiv">
+                        <img class="booksImg" src="img/book_js.png" alt="">
+                    </picture>
+                    <div class="booksText">
+                        <h3>Advanced PHP</h3>
+                        <Strong>From Zero to Hero (2023)</Strong>
+                        <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of
+                            PHP
+                            programming. With
+                            meticulous detail, Lind guides readers through advanced concepts, empowering them to master
+                            complex
+                            topics such as
+                            object-oriented programming, database integration, and secure web application development.
+                            This
+                            comprehensive guide is a
+                            must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
+                        </p>
+                        <hr class="divider">
+                    </div>
+                </article>
+                <article class="articleBooks">
+                    <picture class="imgDiv">
+                        <img class="booksImg" src="img/book_programming.png" alt="">
+                    </picture>
+                    <div class="booksText">
+                        <h3>Advanced PHP</h3>
+                        <Strong>From Zero to Hero (2023)</Strong>
+                        <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of
+                            PHP
+                            programming. With
+                            meticulous detail, Lind guides readers through advanced concepts, empowering them to master
+                            complex
+                            topics such as
+                            object-oriented programming, database integration, and secure web application development.
+                            This
+                            comprehensive guide is a
+                            must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
+                        </p>
+                        <hr class="divider">
+                    </div>
+                </article>
+                <article class="articleBooks">
+                    <picture class="imgDiv">
+                        <img class="booksImg" src="img/book_js_basic.png" alt="">
+                    </picture>
+                    <div class="booksText">
+                        <h3>Advanced PHP</h3>
+                        <Strong>From Zero to Hero (2023)</Strong>
+                        <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of
+                            PHP
+                            programming. With
+                            meticulous detail, Lind guides readers through advanced concepts, empowering them to master
+                            complex
+                            topics such as
+                            object-oriented programming, database integration, and secure web application development.
+                            This
+                            comprehensive guide is a
+                            must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
+                        </p>
+                        <hr class="divider">
+                    </div>
+                </article>
+                <article class="articleBooks">
+                    <picture class="imgDiv">
+                        <img class="booksImg" src="img/book_front_end.png" alt="">
+                    </picture>
+                    <div class="booksText">
+                        <h3>Advanced PHP</h3>
+                        <Strong>From Zero to Hero (2023)</Strong>
+                        <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of
+                            PHP
+                            programming. With
+                            meticulous detail, Lind guides readers through advanced concepts, empowering them to master
+                            complex
+                            topics such as
+                            object-oriented programming, database integration, and secure web application development.
+                            This
+                            comprehensive guide is a
+                            must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
 
         </section>
 
         <section class="contact">
             <h2 class="contactHeader">Contact</h2>
-            <article>
-                <picture class="publishingImgContainer">
-                    <img class="publishingImg" src="img/victoria.png" alt="">
-                </picture>
-                <div>
-
-                    <h4>Publishing</h4>
-                    <p>Victoria Marsh</p>
-                    <p>Editor</p>
-                    <p>victoriamarsh@keapublishing.com</p>
-                    <p>(+44) 079 7502 0028</p>
+            <div class="contactContainer">
+                <div class="contactInfo">
+                    <article class="contactArticle">
+                        <picture class="publishingImgContainer">
+                            <img class="publishingImg" src="img/victoria.png" alt="">
+                        </picture>
+                        <div>
+                            <h4>Publishing</h4>
+                            <p>Victoria Marsh</p>
+                            <p>Editor</p>
+                            <p>victoriamarsh@keapublishing.com</p>
+                            <p>(+44) 079 7502 0028</p>
+                        </div>
+                    </article>
+                    <hr class="divider">
+                    <article class="contactArticle">
+                        <picture class="publishingImgContainer">
+                            <img class="publishingImg" src="img/elly.png" alt="">
+                        </picture>
+                        <div>
+                            <h4>Publishing</h4>
+                            <p>Elly Thompson</p>
+                            <p>Editor</p>
+                            <p>ellythompson@keapublishing.com</p>
+                            <p>(+44) 079 7503 0039</p>
+                        </div>
+                    </article>
+                    <div class="form">
+                        <form action="#">
+                            <fieldset>
+                                <legend>Request booking</legend>
+                                <div>
+                                    <label for="txtFullName">Full name</label>
+                                    <input type="text" id="txtFullName" name="full_name" required
+                                        pattern="([A-Za-z-]+ )+[A-Za-z-]+">
+                                </div>
+                                <div>
+                                    <label for="txtEmail">E-mail</label>
+                                    <input type="email" id="txtEmail" name="email" required>
+                                </div>
+                                <div>
+                                    <label for="txtInformation">Enquiry</label><br>
+                                    <textarea id="txtInformation" name="further_information"></textarea>
+                                </div>
+                                <input type="submit" value="Submit">
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
-            </article>
-            <hr class="divider">
-            <article>
-                <picture class="publishingImgContainer">
-                    <img class="publishingImg" src="img/elly.png" alt="">
-                </picture>
-                <h4>Publishing</h4>
-                <p>Victoria Marsh</p>
-                <p>Editor</p>
-                <p>victoriamarsh@keapublishing.com</p>
-                <p>(+44) 079 7502 0028</p>
-            </article>
+                <div class="contactImage">
+                    <img src="img/conference.jpg" alt="Contact Background Image">
+                </div>
+            </div>
         </section>
 
-        <section class="form">
-            <form action="#">
-                <fieldset>
-                    <legend>Request booking</legend>
-                    <div>
-                        <label for="txtFullName">Full name</label>
-                        <input type="text" id="txtFullName" name="full_name" required
-                            pattern="([A-Za-z-]+ )+[A-Za-z-]+">
+        <footer>
+            <div class="footer_content">
+                <div>
+                    <div class="kea_publishing">
+                        <img src="img/keapublishing.png" alt="Kea publishing">
+                        <span>KEA Publishing, Inc.</span>
                     </div>
-                    <div>
-                        <label for="txtEmail">E-mail</label>
-                        <input type="email" id="txtEmail" name="email" required>
+                    <div class="socials">
+                        <img src="img/twitter.png" alt="twitter">
+                        <img src="img/linkedin.png" alt="linked in">
+                        <img src="img/facebook.png" alt="Facebook">
                     </div>
-
-
-                    <div>
-                        <label for="txtInformation">Enquiry</label><br>
-                        <textarea id="txtInformation" name="further_information"></textarea>
-                    </div>
-                    <input type="submit" value="Submit">
-                </fieldset>
-            </form>
-        </section>
-        <footer class="footer">
-            <div class="kea">
-                <picture class="keaPic">
-                    <img class="keaPublishing" src="img/keapublishing.png" alt="">
-                </picture>
-                <p>KEA Publishing Inc.</p>
+                </div>
+                <div class="policies">
+                    <p>Privacy Policy</p>
+                    <p>Terms of Service</p>
+                    <p>Cookie Policy</p>
+                </div>
+                <div class="credits">
+                    <p>Person pictures by <span>Matheus Bertelli</span></p>
+                    <p>Book cover pictures by <span>123RF</span></p>
+                    <p>SoMe icons generated with <span>Powr.io</span></p>
+                    <p>Microphone icon by <span>Freepik</span></p>
+                    <p>Up arrow icon by <span>Yogi Aprelliyanto</span></p>
+                    <p>Texts generated by <span>ChatGPT</span></p>
+                </div>
             </div>
-            <div class="socials">
-                <img class="socialsPic" src="img/twitter.png" alt="">
-                <img class="socialsPic" src="img/linkedin.png" alt="">
-                <img class="socialsPic" src="img/facebook.png" alt="">
-
-            </div>
-            <div class="tos">
-                <p>Privacy policy</p>
-                <p>Terms of conditions</p>
-                <p>Cookie policy</p>
-            </div>
+            <p class="copyright">&copy; 2023 KEA Development</p>
         </footer>
     </main>
 
