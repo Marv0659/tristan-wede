@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: bisque;
+}
+
+header {
+  background-color: darkslateblue;
+}
+header h1 {
+  text-align: center;
+  color: bisque;
+}
+
+header p {
+  text-align: center;
+  color: bisque;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navLi {
+  text-align: center;
+  margin-bottom: 0.1em;
+  background-color: cornflowerblue;
+  padding: 1rem;
+  width: 100%;
+}
+
+li a {
+  text-decoration: none;
+  color: bisque;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: burlywood;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.heroPic {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+button {
+  background-color: brown;
+  color: bisque;
+  padding: 1em 4em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.text p {
+  margin: 1rem;
+  line-height: 1.5;
+}
+
+.divQuote {
+  background-color: darkslateblue;
+  color: bisque;
+  padding: 1rem;
+  text-align: center;
+}
+
+.QuoteAuthor {
+  display: flex;
+  justify-content: right;
+}
+
+.tourList {
+  display: flex;
+  flex-direction: column;
+}
+
+.onTourHeader {
+  background-color: darkslateblue;
+  color: bisque;
+  padding: 1rem;
+}
+
+.onTourUl li {
+  list-style: none;
+  margin: 0.5rem;
+}
+
+picture {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: bisque;
+  color: black;
+  padding: 1em;
+}
+
+.booksHeader {
+  background-color: darkslateblue;
+  color: bisque;
+  padding: 1rem;
+}
+
+.booksImg {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+  aspect-ratio: 16/9;
+  margin: 1rem;
+}
+.books {
+  background-color: bisque;
+}
+
+article {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  background-color: bisque;
+}
+
+.contactHeader {
+  background-color: darkslateblue;
+  color: bisque;
+  padding: 1rem;
+}
+
+.publishingImgContainer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.publishingImg {
+  width: 100px; /* Set the desired size */
+  height: 100px; /* Ensure width and height are the same */
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover; /* Ensures the image fills the container */
+}
+
+.form {
+  max-width: 400px;
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: bisque;
+}
+
+.form fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form legend {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.form div {
+  margin-bottom: 15px;
+}
+
+.form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.footer {
+  padding: 1rem;
+  color: white;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.kea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.keaPic {
+  width: 20%;
+  height: 50%;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socialsPic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .articleBooks {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .booksImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+    margin: 1rem;
+  }
+
+  .booksText {
+    max-width: 75ch;
+  }
+
+  .publishingImgContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+  }
+}
