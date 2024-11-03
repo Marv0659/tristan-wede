@@ -21,6 +21,27 @@ header p {
   color: bisque;
 }
 
+.divider {
+  margin-top: 2rem;
+}
+
+.mic_icon img {
+  width: 5%;
+  object-fit: contain;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.arrow-container img {
+  width: 40px;
+  object-fit: contain;
+}
+
 .copyright {
   text-align: center;
 }
@@ -164,6 +185,7 @@ img {
 article {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .contact {
